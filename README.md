@@ -62,7 +62,7 @@ Este é um clone fiel da **landing page oficial do Discord**, desenvolvido com *
 <img width="868" height="1063" alt="discord_mobile" src="https://github.com/user-attachments/assets/f842e05f-3314-4d97-8290-446feaee5828" />
 
 ### 🔗 Link
-- Solution Site:[Discord Clone Responsive]( ).
+- Solution Site:[Discord Clone Responsive](https://shillue.github.io/discord-clone-responsive/).
 
 ---
 
