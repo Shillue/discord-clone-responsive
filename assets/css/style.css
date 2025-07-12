@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main__header{
+    width: 100%;
+    height: 28.7rem;
+    background-image: url("../images/Header.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__content{
+    padding: 1.25rem;
+    z-index: 1;
+    width: 47rem;
+    height: auto;
+}
+
+.header__content .header__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.header__text .header__title{
+    width: 20rem;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-size: 56px;
+    margin-bottom: 1.5rem;
+    
+}
+
+.header__text .header__paragraph{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0.25rem;
+}
+
+/*Header buttons*/
+.header__content .header__actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding:0.5rem ;
+}
+.header__content .header__actions .header__button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.header__actions .header__button__download{
+    color: #23272A;
+    background-color: #FFFFFF;
+    margin-right: 1rem;
+}
+
+.header__actions .header__button__download:hover{
+    color: #FFFFFF;
+    background-color: #656768;
+    font-weight: 600;
+}
+
+.header__actions .header__button__open{
+    color: #FFFFFF;
+    background-color: #23272A;
+}
+
+.header__actions .header__button__open:hover{
+    color: #FFFFFF;
+    background-color: #656768;
+    font-weight: 600;
+}
+
+/*Main container*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+/*Section First and Third*/
+.container  .content__first,
+.container .content__third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    padding:1rem;
+    background-color: #FFFFFF;
+}
+
+/*Imge of First, Second and Third*/
+.content__first .image__content__first img,
+.content__second .image__content__second img,
+.content__third .image__content__third img{
+    width: 607px;
+    height: 394px;
+}
+
+.content__first .content__first__text,
+.content__third .content__third__text{
+    padding: 0.2rem;
+    text-align: left;
+    width: 351px;
+}
+
+.content__first .content__first__text h2,
+.content__third .content__third__text h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0.2rem;
+    margin-bottom: 1rem;   
+}
+
+.content__first .content__first__text p,
+.content__third .content__third__text p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Section Second*/
+.content__second{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #F6F6F6;
+}
+.content__second .content__second__text{
+    padding: 0.25rem;
+    text-align: left;
+    width: 351px;
+}
+
+.content__second .content__second__text h2{
+     font-family: "Open Sans", sans-serif;
+     font-weight: 800;
+     font-size: 40px;
+     padding: 0.2rem;
+     margin-bottom: 1rem;
+}
+.content__second .content__second__text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*Section Fourth*/
+.content__fourth{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #F6F6F6;
+}
+
+.content__fourth .image__content__fourth img{
+    width: 784px;
+    height: 508px;
+}
+
+.content__fourth .content__fourth__text{
+    padding: 0.25rem;
+    width: 802px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content__fourth .content__fourth__text h2{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    width: 608px;
+}
+
+.content__fourth .content__fourth__text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 802px;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 35px;
+    background-color: #23272A;
+}
+
+footer .logo__discord img{
+    width: 230px;
+    margin-bottom:0.7rem;
+}
+
+footer p{
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color:#cbcecf;
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+footer p a{
+    text-decoration: none;
+    color:#5c64f4;
+}
+
+footer p a:hover{
+    color:#87d0e8;
+}

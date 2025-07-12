@@ -1,0 +1,117 @@
+/* Media Query para telas menores */
+@media (max-width: 860px) {
+    /*Header*/
+    .header__content {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .header__content .header__text {
+        margin-bottom: 32px;
+        text-align: left;
+        width: 95%;
+    }
+
+    .header__text .header__title {
+        width: 97%;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+
+    }
+
+    /*Header buttons*/
+    .header__content .header__actions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+
+    .header__content .header__actions .header__button {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .header__actions .header__button__download {
+        color: #23272A;
+        background-color: #FFFFFF;
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    /*Main container*/
+    /*Section First, Second and Third*/
+    .container .content__first,
+    .container .content__second,
+    .container .content__third {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    /*Imge of First, Second and Third*/
+    .content__first .image__content__first img,
+    .content__second .image__content__second img,
+    .content__third .image__content__third img {
+        width: 379px;
+        height: 252px;
+    }
+
+    .content__first .content__first__text,
+    .content__second .content__second__text,
+    .content__third .content__third__text {
+        padding: 0.2rem;
+        width: 355px;
+    }
+
+    .content__first .content__first__text h2,
+    .content__second .content__second__text h2,
+    .content__third .content__third__text h2 {
+        font-size: 24px;
+    }
+
+    /*Section Fourth*/
+    .content__fourth {
+        padding: 0.5rem;
+    }
+
+    .content__fourth .image__content__fourth img {
+        width: 345px;
+        height: 252px;
+    }
+
+    .content__fourth .content__fourth__text {
+        width: 355px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .content__fourth .content__fourth__text h2 {
+        font-size: 32px;
+        width: 353px;
+    }
+
+    .content__fourth .content__fourth__text p {
+        font-size: 16px;
+        width: 355px;
+    }
+
+    /*Footer*/
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 30px;
+        background-color: #23272A;
+    }
+
+    footer .logo__discord img {
+        width: 162px;
+    }
+
+
+}
