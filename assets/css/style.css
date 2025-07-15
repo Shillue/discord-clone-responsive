@@ -83,7 +83,7 @@ body{
 
 .header__actions .header__button__download:hover{
     color: #FFFFFF;
-    background-color: #656768;
+    background-color: #143188;
     font-weight: 600;
 }
 
@@ -94,7 +94,7 @@ body{
 
 .header__actions .header__button__open:hover{
     color: #FFFFFF;
-    background-color: #656768;
+    background-color: #143188;
     font-weight: 600;
 }
 
